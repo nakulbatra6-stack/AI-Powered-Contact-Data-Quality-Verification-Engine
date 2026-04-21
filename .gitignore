@@ -1,0 +1,36 @@
+# 🔹 Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 🔹 Virtual environment (VERY IMPORTANT)
+venv/
+.env/
+env/
+
+# 🔹 VS Code settings
+.vscode/
+
+# 🔹 System files
+.DS_Store
+Thumbs.db
+
+# 🔹 Logs
+*.log
+
+# 🔹 Excel outputs (generated files)
+output/
+*.xlsx
+
+# 🔹 Temporary files
+*.tmp
+*.temp
+
+# 🔹 Environment variables (if you add later)
+.env
+
+# 🔹 Python packaging
+build/
+dist/
+*.egg-info/
