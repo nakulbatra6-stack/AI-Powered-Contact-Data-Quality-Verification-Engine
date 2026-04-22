@@ -4,12 +4,11 @@ __pycache__/
 *.pyo
 *.pyd
 
+# Allow data folder
 !data/
 !data/*.xlsx
 
-gitignore
-
-# 🔹 Virtual environment (VERY IMPORTANT)
+# 🔹 Virtual environment
 venv/
 .env/
 env/
@@ -26,14 +25,14 @@ Thumbs.db
 
 # 🔹 Excel outputs (generated files)
 output/
+
+# Ignore Excel everywhere EXCEPT data folder
 *.xlsx
+!data/*.xlsx
 
 # 🔹 Temporary files
 *.tmp
 *.temp
-
-# 🔹 Environment variables (if you add later)
-.env
 
 # 🔹 Python packaging
 build/
